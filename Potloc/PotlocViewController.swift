@@ -77,11 +77,11 @@ class PotlocViewController: UIViewController, WCSessionDelegate, CLLocationManag
     // MARK: Localized String Convenience
 
     var updatingLocationText: String {
-        return NSLocalizedString("Location manager updating location", comment: "Inform user the location manager is updating location")
+        return NSLocalizedString("Manager updating location", comment: "Inform user the location manager is updating location")
     }
     
     var notUpdatingLocationText: String {
-        return NSLocalizedString("Location manager not updating location", comment: "Inform user the location manager is not updating location")
+        return NSLocalizedString("Manager not updating location", comment: "Inform user the location manager is not updating location")
     }
     
     var deactivatingText: String {
